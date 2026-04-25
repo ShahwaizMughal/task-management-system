@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+  --color-violet-50: oklch(0.95 0.02 264);
+  /* Tailwind v4 uses oklch colors by default, but we can maintain class-based dark mode by adding the variant */
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+
 @layer base {
   :root {
     --transition-speed: 0.2s;
