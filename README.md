@@ -46,8 +46,7 @@ TaskFlow is a modern, responsive, and professional Task Management System design
 
 1. **Clone the project**
    ```bash
-   git clone [repository-url]
-   cd TaskFlow
+   git clone [(https://github.com/ShahwaizMughal/task-management-system.git)]
    ```
 
 2. **Backend Configuration**
